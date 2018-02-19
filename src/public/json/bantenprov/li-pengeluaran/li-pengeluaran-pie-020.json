@@ -1,0 +1,324 @@
+[
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2010"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 14.1,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 3.76,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 4.41,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 8.37,
+            "name": "Sandang"
+          },
+          {
+            "value": 5.3,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 3.64,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": 1.1,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 6.1,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2011"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 4.76,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 2.95,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 3.16,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 7.02,
+            "name": "Sandang"
+          },
+          {
+            "value": 4.03,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 6.44,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": 0.02,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 3.45,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2012"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 3.88,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 8.24,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 2.39,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 3.93,
+            "name": "Sandang"
+          },
+          {
+            "value": 4.97,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 9.11,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": 1.79,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 4.37,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2013"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 11.41,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 9.85,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 6.54,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 0.83,
+            "name": "Sandang"
+          },
+          {
+            "value": 5.68,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 7.47,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": 17.15,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 9.65,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2014"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 12.63,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 12.57,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 8.75,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 4.73,
+            "name": "Sandang"
+          },
+          {
+            "value": 4.49,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 4.33,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": 12.93,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 10.2,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2015"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 3.82,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 8.18,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 4.56,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 1.9,
+            "name": "Sandang"
+          },
+          {
+            "value": 12.78,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 6.05,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": -2.2,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 4.29,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "yyyy": "2016"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 6.93,
+            "name": "Bahan Makanan"
+          },
+          {
+            "value": 5.07,
+            "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+          },
+          {
+            "value": 0.97,
+            "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+          },
+          {
+            "value": 1.7,
+            "name": "Sandang"
+          },
+          {
+            "value": 2.86,
+            "name": "Kesehatan"
+          },
+          {
+            "value": 2.21,
+            "name": "Pendidikan Rekreasi dan OlahRaga"
+          },
+          {
+            "value": -1.92,
+            "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+          },
+          {
+            "value": 2.94,
+            "name": "Umum"
+          }
+        ]
+      }
+    ]
+  }
+]

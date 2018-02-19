@@ -58,8 +58,8 @@ export default {
           orient: 'horizontal',
           bottom: 30,
           x: 'center',
-          min: 1000,
-          max: 300000,
+          min: 100,
+          max: 700,
           text: ['High', 'Low'],
           calculable : false,
           inRange: {
@@ -71,16 +71,7 @@ export default {
         },
         series: [{
           type:'pie',
-          data:[
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''}
-          ].sort(function (a, b) { return a.value - b.value; }),
+          data:[].sort(function (a, b) { return a.value - b.value; }),
           radius: '55%',
           roseType: 'radius',
           cursor: 'default',
@@ -89,7 +80,7 @@ export default {
           },
           label: {
             show: true,
-            fontSize: 8,
+            fontSize: 9,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -113,44 +104,29 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/li-pengeluaran/li-pengeluaran-020.json').then(response => {
+    axios.get('/json/bantenprov/li-pengeluaran/li-pengeluaran-pie-020.json').then(response => {
 
-      let obj_key = [];
-      var datas = response.data;
+      let ke = 0;
 
-      function removeDuplicates(arr){
-        var unique_array = []
-        for(var i = 0;i < arr.length; i++){
-          if(unique_array.indexOf(arr[i]) == -1){
-            unique_array.push(arr[i])
-          }
-        }
-        return unique_array
-      }
+      var res = response.data;
 
-      // set nilai awal
+      this.pie.series[0].data = res[0].series[0].data;
+      this.pie.title.text =  ' Tahun ' + res[0].xAxis.yyyy  ;
 
-      Object.values(datas[0])[0].forEach((data, index) => {
-        this.pie.series[0].data[index].name   = data.wilayah + ' ' + data.name + ' - ' + data.data.toLocaleString('EN')
-        this.pie.series[0].data[index].value  = data.data
-        this.pie.title.text = 'Tahun ' + Object.keys(datas[0])[0]
-      })
-
-      var i = 1;
+      // interval
+      let i = 0;
 
       setInterval(() => {
-        Object.values(datas[0])[i].forEach((data, index) => {
-          this.pie.series[0].data[index].name   = data.wilayah + ' ' + data.name + ' - ' + data.data.toLocaleString('EN')
-          this.pie.series[0].data[index].value  = data.data
-          this.pie.title.text = 'Tahun ' + Object.keys(datas[0])[i]
-        });
+
+        this.pie.series[0].data = res[i].series[0].data;
+        this.pie.title.text =  ' Tahun ' + res[i].xAxis.yyyy   ;
 
         i++;
 
-        if(i == Object.keys(datas[0]).length) {
+        if(i == res.length) {
           i = 0;
         }
-      }, 4000)
+      }, 4000);
     })
     .catch(function(error) {
       // error

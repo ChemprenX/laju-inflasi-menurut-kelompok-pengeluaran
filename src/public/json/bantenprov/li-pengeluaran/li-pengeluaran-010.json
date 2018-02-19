@@ -1,71 +1,235 @@
+
+
 [
   {
-    "Provinsi": [
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Bahan Makanan",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
       {
-        "tingkat": "satu",
-        "wilayah": "Provinsi",
-        "name": "Banten",
-        "SD/MI/Paket A": [
-          {
-            "2011": 104.12,
-            "2012": 104.79,
-            "2013": 107.47,
-            "2014": 109.89,
-            "2015": 112.07
-          }
-        ],
-        "SMP/MTS/Paket B": [
-          {
-            "2011": 91.62,
-            "2012": 87.96,
-            "2013": 89.85,
-            "2014": 89.55,
-            "2015": 92.27
-          }
-        ],
-        "SMA/SMK/Paket C": [
-          {
-            "2011": 60.1,
-            "2012": 69.65,
-            "2013": 63.32,
-            "2014": 72.94,
-            "2015": 69.76
-          }
+        "data": [
+          14.1,
+          4.76,
+          3.88,
+          11.41,
+          12.63,
+          3.82,
+          6.93
         ]
       }
-    ],
-    "Negara": [
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Makanan Jadi Minuman Rokok dan Tembakau",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
       {
-        "tingkat": "pusat",
-        "wilayah": "Negara",
-        "name": "Indonesia",
-        "SD/MI/Paket A": [
-          {
-            "2011": 102.57,
-            "2012": 104.33,
-            "2013": 107.71,
-            "2014": 108.87,
-            "2015": 110.5
-          }
-        ],
-        "SMP/MTS/Paket B": [
-          {
-            "2011": 89.93,
-            "2012": 89.49,
-            "2013": 85.96,
-            "2014": 88.63,
-            "2015": 91.17
-          }
-        ],
-    "SMA/SMK/Paket C": [
-      {
-        "2011": 64.9,
-        "2012": 68.8,
-        "2013": 66.61,
-        "2014": 74.26,
-        "2015": 78.02
+        "data": [
+          3.76,
+          2.95,
+          8.24,
+          9.85,
+          12.57,
+          8.18,
+          5.07
+        ]
       }
     ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          4.41,
+          3.16,
+          2.39,
+          6.54,
+          8.75,
+          4.56,
+          0.97
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Sandang",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8.37,
+          7.02,
+          3.93,
+          0.83,
+          4.73,
+          1.9,
+          1.7
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Kesehatan",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5.3,
+          4.03,
+          4.97,
+          5.68,
+          4.49,
+          12.78,
+          2.86
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Pendidikan Rekreasi dan OlahRaga",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3.64,
+          6.44,
+          9.11,
+          7.47,
+          4.33,
+          6.05,
+          2.21
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Transportasi  Komunikasi dan Jasa Keuangan",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1.1,
+          0.02,
+          1.79,
+          17.15,
+          12.93,
+          -2.2,
+          -1.92
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "kelompok Pengeluaran ",
+      "region": "Provinsi Banten",
+      "name": "Umum",
+      "data": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          6.1,
+          3.45,
+          4.37,
+          9.65,
+          10.2,
+          4.29,
+          2.94
+        ]
       }
     ]
   }

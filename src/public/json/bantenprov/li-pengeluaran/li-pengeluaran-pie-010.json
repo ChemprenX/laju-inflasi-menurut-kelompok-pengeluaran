@@ -1,0 +1,338 @@
+[
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Bahan Makanan"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 14.1,
+            "name": "2010"
+          },
+          {
+            "value": 4.76,
+            "name": "2011"
+          },
+          {
+            "value": 3.88,
+            "name": "2012"
+          },
+          {
+            "value": 11.41,
+            "name": "2013"
+          },
+          {
+            "value": 12.63,
+            "name": "2014"
+          },
+          {
+            "value": 3.82,
+            "name": "2015"
+          },
+          {
+            "value": 6.93,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Makanan Jadi Minuman Rokok dan Tembakau"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 3.76,
+            "name": "2010"
+          },
+          {
+            "value": 2.95,
+            "name": "2011"
+          },
+          {
+            "value": 8.24,
+            "name": "2012"
+          },
+          {
+            "value": 9.85,
+            "name": "2013"
+          },
+          {
+            "value": 12.57,
+            "name": "2014"
+          },
+          {
+            "value": 8.18,
+            "name": "2015"
+          },
+          {
+            "value": 5.07,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Perumahan Air  Listrik  Gas Dan Bahan Bakar"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 4.41,
+            "name": "2010"
+          },
+          {
+            "value": 3.16,
+            "name": "2011"
+          },
+          {
+            "value": 2.39,
+            "name": "2012"
+          },
+          {
+            "value": 6.54,
+            "name": "2013"
+          },
+          {
+            "value": 8.75,
+            "name": "2014"
+          },
+          {
+            "value": 4.56,
+            "name": "2015"
+          },
+          {
+            "value": 0.97,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Sandang"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 8.37,
+            "name": "2010"
+          },
+          {
+            "value": 7.02,
+            "name": "2011"
+          },
+          {
+            "value": 3.93,
+            "name": "2012"
+          },
+          {
+            "value": 0.83,
+            "name": "2013"
+          },
+          {
+            "value": 4.73,
+            "name": "2014"
+          },
+          {
+            "value": 1.9,
+            "name": "2015"
+          },
+          {
+            "value": 1.7,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Kesehatan"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 5.3,
+            "name": "2010"
+          },
+          {
+            "value": 4.03,
+            "name": "2011"
+          },
+          {
+            "value": 4.97,
+            "name": "2012"
+          },
+          {
+            "value": 5.68,
+            "name": "2013"
+          },
+          {
+            "value": 4.49,
+            "name": "2014"
+          },
+          {
+            "value": 12.78,
+            "name": "2015"
+          },
+          {
+            "value": 2.86,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Pendidikan Rekreasi dan OlahRaga"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 3.64,
+            "name": "2010"
+          },
+          {
+            "value": 6.44,
+            "name": "2011"
+          },
+          {
+            "value": 9.11,
+            "name": "2012"
+          },
+          {
+            "value": 7.47,
+            "name": "2013"
+          },
+          {
+            "value": 4.33,
+            "name": "2014"
+          },
+          {
+            "value": 6.05,
+            "name": "2015"
+          },
+          {
+            "value": 2.21,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Transportasi  Komunikasi dan Jasa Keuangan"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 1.1,
+            "name": "2010"
+          },
+          {
+            "value": 0.02,
+            "name": "2011"
+          },
+          {
+            "value": 1.79,
+            "name": "2012"
+          },
+          {
+            "value": 17.15,
+            "name": "2013"
+          },
+          {
+            "value": 12.93,
+            "name": "2014"
+          },
+          {
+            "value": -2.2,
+            "name": "2015"
+          },
+          {
+            "value": -1.92,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Kelompok Pengeluaran",
+      "type": "category",
+      "region": "Provinsi Banten",
+      "name": "Umum"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 6.1,
+            "name": "2010"
+          },
+          {
+            "value": 3.45,
+            "name": "2011"
+          },
+          {
+            "value": 4.37,
+            "name": "2012"
+          },
+          {
+            "value": 9.65,
+            "name": "2013"
+          },
+          {
+            "value": 10.2,
+            "name": "2014"
+          },
+          {
+            "value": 4.29,
+            "name": "2015"
+          },
+          {
+            "value": 2.94,
+            "name": "2016"
+          }
+        ]
+      }
+    ]
+  }
+]

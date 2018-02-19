@@ -2,7 +2,7 @@
   <div>
 
     <div class="alert alert-info">
-      Belum ada data untuk ditampilkan.
+      Laju Inflasi Menurut Kelompok Pengeluaran di Provinsi Banten
     </div>
 
     <div class="row">
@@ -29,7 +29,7 @@
         <div class="card h-100" style="color: #fff; background-color: #009688;">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Laju Inflasi Kelompok Pengeluaran Berdasarkan Wilayah
+            Laju Inflasi Pengeluaran Berdasarkan Kelompok 
           </div>
           <div class="card-body">
             <li-pengeluaran-bar-01></li-pengeluaran-bar-01>
@@ -40,7 +40,7 @@
         <div class="card h-100" style="color: #fff; background-color: #FF9800;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Laju Inflasi Kelompok Pengeluaran Berdasarkan Wilayah
+            Laju Inflasi Pengeluaran Berdasarkan Kelompok
           </div>
           <div class="card-body">
             <li-pengeluaran-pie-01></li-pengeluaran-pie-01>

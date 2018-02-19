@@ -58,8 +58,8 @@ export default {
           orient: 'horizontal',
           bottom: 30,
           x: 'center',
-          min: 1000,
-          max: 80000,
+          min: 100,
+          max: 600,
           text: ['High', 'Low'],
           calculable : false,
           inRange: {
@@ -71,7 +71,7 @@ export default {
         },
         series: [{
           type:'pie',
-          data: [{},{},{},{},{},{}].sort(function (a, b) { return a.value - b.value; }),
+          data:[].sort(function (a, b) { return a.value - b.value; }),
           radius: '55%',
           roseType: 'radius',
           cursor: 'default',
@@ -80,7 +80,7 @@ export default {
           },
           label: {
             show: true,
-            fontSize: 8,
+            fontSize: 9,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -104,38 +104,29 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/li-pengeluaran/li-pengeluaran-010.json').then(response => {
+    axios.get('/json/bantenprov/li-pengeluaran/li-pengeluaran-pie-010.json').then(response => {
 
+      let ke = 0;
+
+      var res = response.data;
+
+      this.pie.series[0].data = res[0].series[0].data;
+      this.pie.title.text =   res[0].xAxis.name  ;
+
+      // interval
       let i = 0;
 
-      for(var first = 0; first < Object.keys(response.data[0].chartdata.grafik[0].tahun[0]).length; first++){
-        this.pie.series[0].data[first].value = Object.values(response.data[0].chartdata.grafik[0].tahun[0])[first]
-        this.pie.series[0].data[first].name = Object.keys(response.data[0].chartdata.grafik[0].tahun[0])[first]
-        this.pie.title.text = response.data[0].chartdata.grafik[0].tingkat + ' ' + response.data[0].chartdata.grafik[0].name
-      }
-
-      this.pie.visualMap.max = Math.max.apply(null,Object.values(response.data[0].chartdata.grafik[0].tahun[0])) + 2000
-      this.pie.visualMap.min = Math.min.apply(null,Object.values(response.data[0].chartdata.grafik[0].tahun[0])) - 2000
-
       setInterval(() => {
+
+        this.pie.series[0].data = res[i].series[0].data;
+        this.pie.title.text =    res[0].xAxis.name ;
+
         i++;
 
-        setTimeout(() => {
-          for(var k = 0; k < Object.keys(response.data[0].chartdata.grafik[0].tahun[0]).length; k++){
-            this.pie.series[0].data[k].value = Object.values(response.data[0].chartdata.grafik[i].tahun[0])[k]
-            this.pie.series[0].data[k].name = Object.keys(response.data[0].chartdata.grafik[i].tahun[0])[k]
-
-            this.pie.title.text = response.data[0].chartdata.grafik[i].tingkat + ' ' + response.data[0].chartdata.grafik[i].name
-
-            this.pie.visualMap.max = Math.max.apply(null,Object.values(response.data[0].chartdata.grafik[i].tahun[0])) + 6000
-            this.pie.visualMap.min = Math.min.apply(null,Object.values(response.data[0].chartdata.grafik[i].tahun[0])) - 6000
-          }
-        }, 1000);
-
-        if(i ==  response.data[0].chartdata.grafik.length) {
+        if(i == res.length) {
           i = 0;
         }
-      }, 5000);
+      }, 4000);
     })
     .catch(function(error) {
       // error
